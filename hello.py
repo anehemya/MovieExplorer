@@ -3,18 +3,18 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import random
-import time  # Add this to imports at top
+import time  
 
 
 
 text("# 🎬 Movie Explorer")
 text("Discover great movies and explore cinema trends!")
 
-# Load and clean the dataset
+
 connect()
 df = get_df('imdb')
 
-# Pre-process data once
+
 df = df[
     (df['startYear'].notna()) &
     (df['averageRating'].notna()) &
