@@ -1,0 +1,31 @@
+[project]
+title = "Movie Explorer"
+version = "0.1.0"
+port = 8501
+slug = "my-project-978420"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Movie Explorer"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.imdb]
+type = "csv"
+path = "data/imdb.csv" 
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+[app]
+title = "🎬 Movie Explorer"
+logo = "images/logo.png"
+
+[theme]
+primary = "#E50914"      # Netflix-inspired red - energetic, bold
+secondary = "#FFD700"    # Golden yellow - reminiscent of movie awards
+background = "#141414"   # Dark charcoal - like a movie theater
+text = "#FFFFFF"         # Crisp white text - for good contrast on dark background
+
